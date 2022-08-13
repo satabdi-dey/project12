@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+body{
+    margin: 0px;
+    font-family: "Raleway";
+}
+header{
+    background-color: #636c79;  
+}
+li{
+    display: inline;
+    color: #f7f8f9;
+    
+}
+.nav-btn{
+    color: #f7f8f9;
+    background-color: transparent;
+    border: 1px solid #707680;
+    padding: 10px 40px;
+    margin-top: 10px;
+}
+.navbar-container{
+    padding-left: 10vh;
+    padding-top: 20px;
+    
+}
+.nav-items{
+    position: absolute;
+    display: flex;
+    top: 20px;
+    right: 40px;
+   gap: 40px;
+   padding-right: 40px;
+}
+.item{
+margin-right: 60px;
+}
+.content{
+    display: flex;
+    margin-left: 15vh;
+    margin-right: 15vh;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    
+    gap: 20vh;
+}
+.right-panel{
+   
+    padding-top: 40px;
+    color: #fffff0;
+
+    
+
+}
+h1{
+    font-size: 70px;
+    font-weight: 600;
+    width: 90vh;
+}
+img[src="./assets/pexels-fauxels-3183197.jpg"]{
+    width:70vh;}
+
+p{font-size: 22px;
+    font-family: "poppins";
+    width: 80vh;
+    font-weight: 200;
+
+}
+.input{
+    background-color: #f7f8f9;
+    padding: 5px 5px;
+    width: 70vh;
+}
+.btn{
+    background-color: #8bb7a2;
+    border: none;
+    padding: 10px 40px ;
+    margin-left: 50px;
+    color: #fffff0;
+    font-size: 20px;
+   
+}
+.text{
+    background-image: url('./assets/envelope.png');
+    background-repeat: no-repeat;
+    background-size: 20px;
+    text-align: center;
+    width: 40vh;
+    font-size: 18px;
+    border: none;
+    margin-left: 5px;
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+    width: 90vh;
+    margin-left: 60vh;
+}
+h3{
+    font-family: "poppins";
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.project{
+    margin-left: 8vh;
+    font-size: 20px;
+}
+.grid-container {
+    display: grid;
+    gap: 0px 10px;
+    grid-template-columns: 40vh 40vh 40vh 40vh ;
+    margin-left: 20vh;
+  }
+  .grid-item {
+    padding-bottom: 40px; 
+  }
+  .image{
+    margin-left: 15vh;
+  }
+img[src="./assets/pexels-fauxels-3184325.jpg"]{
+    width:180vh;
+height: 80vh;}
+.btn2{background-color: #8bb7a2;
+    border: none;
+    padding: 10px 40px ;
+    color: #fffff0;
+    font-size: 20px;
+  }
+  .left{
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 20vh;
+  }
+img[src="./assets/pexels-fauxels-3184405.jpg"]{
+    width:80vh;}
+.right-panel2 {
+    font-size: 50px;
+    font-weight: 600;
+   margin-left: 5vh;
+    color: #000000;
+    }
+img[src="./assets/pexels-fauxels-3184603.jpg"]{
+        width:80vh;
+    }
+img[src="./assets/pexels-linkedin-sales-navigator-2182969.jpg"]{
+            width:77vh;}
+
+.left-side{
+    font-size: 50px;
+    font-weight: 600;
+    width: 60vh;
+    margin-top: 10vh;
+}
+.right-side{
+    font-size:20px ;
+    width: 80vh;
+    margin-left: 20vh;
+    margin-top: 10vh;
+}
+.grid-card {
+    display: grid;
+    gap: 0px 90px;
+    grid-template-columns: 50vh 50vh 50vh;
+    margin-left: 15vh;
+  }
+  .card {
+    padding-bottom: 40px; 
+  }
+  img[src="./assets/pexels-christina-morillo-1181424.jpg"]{
+    width:55vh;
+    height: 65vh;
+}
+img[src="./assets/pexels-mikhail-nilov-8937870.jpg"]{
+    width:55vh;
+}
+img[src="./assets/pexels-precious-judah-9154594.jpg"]{
+    width:55vh;
+}
+.card-heading{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.description{
+    margin-top: 20px;
+    font-size: 18px; 
+    font-weight: 300;  
+}
+.btn3{
+    background-color: #8bb7a2;
+    border: none;
+    padding: 10px 40px ;
+    color: #fffff0;
+    font-size: 20px;
+    position: absolute;
+    left: 45%;
+    margin-bottom: 20vh;
+}
+.container{
+    margin-bottom: 20vh; 
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0px 10px;
+}
+ul{
+        list-style: none;
+}
+footer{
+    background-color: #10181d;   
+    width: 100%;
+    padding-bottom: 40px;
+    
+    }
+.top{
+    display: flex;
+    border-bottom: 1px solid #283035;
+    width: 100%;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.media-icons{
+    position: absolute;
+    right: 15vh;
+   
+}
+
+
+.content2{
+    display: flex;
+    margin-left: 15vh;
+}
+.link-boxes{
+    width: 40vh;
+    line-height: 30px;
+}
+
+.link_heading{
+    font-size: 20px;
+    font-weight:600;
+}
+.links{
+    font-size: 12px;
+    font-weight: 300;
+}
